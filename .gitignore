@@ -1,9 +1,6 @@
 .gradle/
 .idea/
 
-dogal-api/
-dogal-server/
-
 build-data/
 build/
 run/
