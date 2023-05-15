@@ -5,5 +5,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "petal"
-include("petal-api", "petal-server")
+rootProject.name = "dogal"
+include("dogal-api", "dogal-server")

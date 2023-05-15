@@ -24,6 +24,8 @@ subprojects {
     apply(plugin = "java")
 
     java {
+        sourceCompatibility = JavaVersion.VERSION_16
+        targetCompatibility = JavaVersion.VERSION_16
         toolchain {
             languageVersion.set(JavaLanguageVersion.of(17))
         }
@@ -48,7 +50,7 @@ subprojects {
 }
 
 paperweight {
-    serverProject.set(project(":petal-server"))
+    serverProject.set(project(":dogal-server"))
 
     remapRepo.set("https://maven.fabricmc.net/")
     decompileRepo.set("https://files.minecraftforge.net/maven/")
@@ -64,8 +66,8 @@ paperweight {
             apiPatchDir.set(layout.projectDirectory.dir("patches/api"))
             serverPatchDir.set(layout.projectDirectory.dir("patches/server"))
 
-            apiOutputDir.set(layout.projectDirectory.dir("petal-api"))
-            serverOutputDir.set(layout.projectDirectory.dir("petal-server"))
+            apiOutputDir.set(layout.projectDirectory.dir("dogal-api"))
+            serverOutputDir.set(layout.projectDirectory.dir("dogal-server"))
         }
     }
 }
