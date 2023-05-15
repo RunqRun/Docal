@@ -4,7 +4,7 @@
 
 <img src="https://bloom.host/assets/images/petal-logo.png" alt="petal_logo" width="80" height="80">
 
-# Petal Performance Minecraft JAR
+# petal Performance Minecraft JAR
 
 Petal is a performance-oriented fork of Purpur intended to increase performance for entity-heavy servers by implementing multi-threaded and asynchronous improvements.
 
